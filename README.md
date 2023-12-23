@@ -1,3 +1,7 @@
 # sigma-web-development
 HTML CSS AND JAVASCRIPT
-i am going to write code of HTML ,CSS and JAVASCRIPT
+The fundamentals of HTML, CSS, and JavaScript
+Both front-end and back-end development
+How to seamlessly integrate databases
+Real-world project implementation
+
