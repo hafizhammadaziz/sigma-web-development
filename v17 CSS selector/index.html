@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Css Selector</title>
+    <style>
+        /* Element Selector */
+        h1 {
+            background-color: red;
+        }
+
+        /* Class Selector */
+        .blue {
+            background-color: rgb(101, 101, 235);
+        }
+
+        /* ID Selector */
+        #green {
+            background-color: green;
+        }
+
+        /* child Selector */
+        article>p {
+            color: blue;
+        }
+
+        /* desecendent Selector */
+        div p {
+            background-color: aqua;
+        }
+
+        /* universla Selector
+         */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* pseudo Selector */
+        /* pseudo Selector */
+        a:visited {
+            color: rgb(227, 107, 15);
+        }
+
+        a:link {
+            color: green;
+        }
+
+        a:active {
+            /* Example: Changing background color when link is clicked */
+            background-color: rgba(205, 26, 26, 0.5);
+            /* Adjust as needed */
+        }
+        a:hover{
+            background-color: aqua;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1> This is Hammad Aziz</h1>
+    <div class=" blue"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, animi consectetur!
+        Doloremque, nulla! Pariatur nesciunt officiis dignissimos nisi facilis sequi sapiente aliquam!</div>
+    <div id="green">
+        this is another div
+    </div>
+
+    <article> this is hamad
+        <p>this is the p tag in article</p>
+    </article>
+    <div>
+        <span>
+            <p>this is p tag in span in the artilcle tag</p>
+        </span>
+    </div>
+    <a href="https://www.google.com">Go to Google</a> <br>
+    <a href="https://www.whatsapp.com">Go to Whatsapp</a>
+    <a href="https://www.playit.com">Go to Playit</a>
+
+
+</body>
+
+</html>
